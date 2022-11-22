@@ -1,4 +1,4 @@
--- CreateTable
+/* -- CreateTable
 CREATE TABLE "account" (
     "user_id" SERIAL NOT NULL,
     "username" VARCHAR(255) NOT NULL,
@@ -130,3 +130,4 @@ ALTER TABLE "website" ADD FOREIGN KEY ("user_id") REFERENCES "account"("user_id"
 
 -- CreateAdminUser
 INSERT INTO account (username, password, is_admin) values ('admin', '$2b$10$BUli0c.muyCW1ErNJc3jL.vFRFtFJWrT8/GcR4A.sUdCznaXiqFXa', true);
+ */

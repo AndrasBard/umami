@@ -1,4 +1,4 @@
--- DropForeignKey
+/* -- DropForeignKey
 ALTER TABLE "event" DROP CONSTRAINT IF EXISTS "event_session_id_fkey";
 
 -- DropForeignKey
@@ -33,3 +33,4 @@ ALTER TABLE "session" ADD CONSTRAINT "session_website_id_fkey" FOREIGN KEY ("web
 
 -- AddForeignKey
 ALTER TABLE "website" ADD CONSTRAINT "website_user_id_fkey" FOREIGN KEY ("user_id") REFERENCES "account"("user_id") ON DELETE RESTRICT ON UPDATE CASCADE;
+ */

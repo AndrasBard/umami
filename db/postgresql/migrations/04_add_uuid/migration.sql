@@ -1,4 +1,4 @@
--- CreateExtension
+/* -- CreateExtension
 CREATE EXTENSION IF NOT EXISTS pgcrypto;
 
 -- AlterTable
@@ -35,4 +35,4 @@ CREATE INDEX "session_session_uuid_idx" ON "session"("session_uuid");
 CREATE INDEX "website_website_uuid_idx" ON "website"("website_uuid");
 
 -- CreateIndex
-CREATE INDEX "event_event_uuid_idx" ON "event"("event_uuid");
+CREATE INDEX "event_event_uuid_idx" ON "event"("event_uuid"); */

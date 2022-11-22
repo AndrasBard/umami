@@ -1,4 +1,4 @@
--- DropForeignKey
+/* -- DropForeignKey
 ALTER TABLE "event" DROP CONSTRAINT "event_session_id_fkey";
 ALTER TABLE "event" DROP CONSTRAINT "event_website_id_fkey";
 
@@ -63,4 +63,4 @@ ALTER INDEX IF EXISTS "session.session_uuid_unique" RENAME TO "session_session_u
 ALTER INDEX IF EXISTS "website.share_id_unique" RENAME TO "website_share_id_key";
 
 -- RenameIndex
-ALTER INDEX IF EXISTS "website.website_uuid_unique" RENAME TO "website_website_uuid_key";
+ALTER INDEX IF EXISTS "website.website_uuid_unique" RENAME TO "website_website_uuid_key"; */
